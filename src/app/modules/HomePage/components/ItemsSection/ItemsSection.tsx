@@ -1,7 +1,11 @@
-import React from 'react'
+import React from "react";
 
-export interface ItemsSectionProps {}
-
-export const ItemsSection: React.FC<ItemsSectionProps> = () => {
-	return <div>ItemsSection works!</div>
-}
+export const ItemsSection = () => {
+  return (
+    <div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  );
+};

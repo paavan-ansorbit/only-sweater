@@ -3,7 +3,7 @@ import { HomePage } from "./app/modules";
 
 function App() {
   return (
-    <div className="App w-screen h-screen">
+    <div className="App w-screen">
       <HomePage />
     </div>
   );
