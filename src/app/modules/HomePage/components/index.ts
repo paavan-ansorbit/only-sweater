@@ -6,3 +6,4 @@ export * from "./InfoSection";
 export * from "./ContactUs";
 export * from "./GallerySection";
 export * from "./Footer";
+export * from "./Main";

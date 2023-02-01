@@ -1,17 +1,19 @@
 import React from "react";
-import { image4 } from "../../../../../assets";
+import { image4 } from "@app/assets";
 
 export const AboutUs = () => {
   return (
-    <div className="flex justify-center mt-40">
-      <div className="flex w-4/6">
-        <img src={image4} alt="" />
-        <div className="flex flex-col relative">
+    <section id="about" className="container mx-auto mt-40">
+      <div className="flex">
+        <div className=" flex-3">
+          <img src={image4} alt="" />
+        </div>
+        <div className="flex flex-4 flex-col relative  items-center">
           <div className="">
-            <div className=" ml-8 absolute border-dotted h-96 w-96 border-slate-400 border-2 rounded-full"></div>
+            <div className="absolute left-0 right-0 bottom-0 min-h-full rounded-full border border-dotted border-slate-400"></div>
           </div>
-          <div>About</div>
-          <div className="flex flex-col">
+          <div className="text-2xl font-medium text-gray-700 mt-20">About</div>
+          <div className="flex flex-col pl-16 pr-8 pt-8 gap-4 text-gray-400 text-sm">
             <span>
               着るだけで心が満たされていくそんなセーターを作るために
               セーターだけを販売するOnly Sweaterを立ち上げました。
@@ -23,11 +25,13 @@ export const AboutUs = () => {
             </span>
             <span>あなたの冬が特別なものになりますように...</span>
           </div>
-          <div>
-            <span className=" border-b-2 border-black"> View more →</span>
+          <div className="pt-10 w-full pl-16">
+            <span className=" border-b border-gray-500 text-gray-500 pb-1  ">
+              View more →
+            </span>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

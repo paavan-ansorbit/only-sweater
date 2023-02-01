@@ -1,25 +1,10 @@
-import React from "react";
-import {
-  AboutUs,
-  ContactUs,
-  Footer,
-  GallerySection,
-  HeroSection,
-  InfoSection,
-  ItemsSection,
-  Navbar,
-} from "./components";
+import { Footer, Main, Navbar } from "./components";
 
 export const HomePage = () => {
   return (
     <>
       <Navbar />
-      <HeroSection />
-      <AboutUs />
-      <ItemsSection />
-      <InfoSection />
-      <ContactUs />
-      <GallerySection />
+      <Main />
       <Footer />
     </>
   );

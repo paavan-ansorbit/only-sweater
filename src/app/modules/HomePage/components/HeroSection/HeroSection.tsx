@@ -5,18 +5,18 @@ export interface HeroSectionProps {}
 
 export const HeroSection: React.FC<HeroSectionProps> = () => {
   return (
-    <div>
-      <div className="flex justify-center">
-        <img src={image1} alt="" className="mt-8" />
-        <div className="flex flex-col justify-between">
+    <section id="hero">
+      <div className="flex justify-center px-12">
+        <img src={image1} alt="" className="mt-8 w-1/3" />
+        <div className="flex flex-col justify-between  w-1/3">
           <img src={logo} alt="" className="w-full" />
-          <img src={image2} alt="" className="" />
+          <img src={image2} alt="" className="flex-1" />
         </div>
-        <img src={image3} alt="" className="mt-4" />
+        <img src={image3} alt="" className="mt-4  w-1/3" />
       </div>
       <div className=" herosection_bg text-white text-center py-2">
         新規登録で１０％オフキャンペーン実施中！
       </div>
-    </div>
+    </section>
   );
 };
